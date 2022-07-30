@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    height: 100%;
+    background: #1f5a82;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 500px;
+    padding: 35px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 15px 30px 35px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    /* margin: 20%; */
+    margin-left: 30%;
+}
+
+button{
+    margin: 20px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    transition: 1s ease-in-out;
+    background-color: limegreen;
+    color: #2b2b2b;
+}
+
+.b1 button{
+    padding: 5px;
+    font-size: 19px;
+    width: 100px;
+    text-align: center;
+}
+
+.b2 button{
+    padding: 5px;
+    font-size: 19px;
+    width: 100px;
+    text-align: center;
+}
+
+.b3 button{
+  padding: 5px;
+  font-size: 19px;
+  width: 100px;
+  text-align: center;
+}
+
+button:hover{
+    background-color: rgb(107, 252, 107);
+    transition: 1s ease-in-out;
+}
+
+
+#headsCount {
+    float: left;
+    margin: 20px;
+    margin-left: 15%;
+    width: 90px;
+  }
+  
+  #tailsCount {
+    float: right;
+    margin: 20px;
+    margin-right: 10%;
+    width: 90px;
+  }
+
+  #coin-wrapper {
+    margin: 60px auto;
+    /* height: 500px; */
+    max-width: 500px;
+  }
+
+  #headsResultPara{
+    margin-left: 35px;
+  }
+
+  #tailsResultPara{
+    margin-left: 35px;
+  }
+
+  .pera{
+    position: static;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    text-align: center;
+    top: 60px;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    text-decoration: underline;
+  }
+  
+  h4 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  #result, h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  
+
+  
+  /* .heads {
+    background: url('http://www.apamphilon.com/coin-flipper/_img/heads.jpg') no-repeat;
+  }
+  
+  .tails {
+   background: url('http://www.apamphilon.com/coin-flipper/_img/tails.jpg') no-repeat;
+  }
+  
+  .heads, .tails {
+    background-size: 90%;
+    background-position: center;
+  } */
